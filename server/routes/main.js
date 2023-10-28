@@ -12,7 +12,7 @@ const Post = require('../models/Post');
 router.get('' , async (req, res) => {
     try{
     const locals = {
-        title : "NodeJS Blog",
+        title : "Aaron's Pages",
         description: "Simple Blog created with NodeJS, Express and MongoDB"
     }
 
@@ -61,8 +61,8 @@ router.get('/post/:id' , async (req, res) => {
 
     try {
         const locals = {
-            title: "Building a Blog",
-            body: "This is the body text"
+            title: "Post",
+            body: "This is the place to post"
         }
         let slug = req.params.id;
 
