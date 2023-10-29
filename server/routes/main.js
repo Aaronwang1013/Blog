@@ -3,7 +3,7 @@ const { get } = require('mongoose');
 const router = express.Router();
 const Post = require('../models/Post');
 
-//Routes
+
 
 /** 
 // GET
@@ -86,7 +86,7 @@ router.post('/search', async (req, res) => {
     try {
       const locals = {
         title: "Seach",
-        description: "Simple Blog created with NodeJs, Express & MongoDb."
+        description: "Search results"
       }
   
       let searchTerm = req.body.searchTerm || "";

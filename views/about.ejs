@@ -1,24 +1,73 @@
-<h1>About</h1>
-
-
+<h2>About</h2>
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Shih-Cheng Wang's Profile</title>
+  <div class="social-icons">
+    <a href="https://www.linkedin.com/in/aaronwang1013/" target="_blank">
+      <img src="img/linkedin.png" alt="LinkedIn Profile">
+    </a>
+    <a href="https://www.facebook.com" target="_blank">
+      <img src="img/fb.png" alt="Facebook Profile">
+    </a>
+  </div>
+  <title>Aaron Wang's Profile</title>
+  <style>
+    table {
+      width: 80%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #069;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    p {
+      text-align: justify;
+    }
+    
+    .eduation {
+      margin: 0;
+    }
+    .social-icons {
+      display: 10px;
+    }
+
+    .social-icons a {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    .social-icons img {
+      width: 20px; 
+      height: 20px; 
+    }
+  </style>
 </head>
 <body>
-  <h1>Shih-Cheng Wang</h1>
-  <p>As a bioinformatician with three years of experience, I have a strong background in statistics and knowledge of data processing. I am highly skilled at analyzing complex biological data sets using a variety of programming tools. My expertise in programming languages in python, R, and shell scripts enables me to develop custom scripts and an automated testing pipeline. I have excellent communication and problem-solving skills, which enable me to clearly and effectively convey solutions to customers.</p>
-  
-  <p>Contact Information:</p>
-  <ul>
-    <li>Phone: 0935962520</li>
-    <li>LinkedIn: <a href="https://www.linkedin.com/in/aaronwang1013">www.linkedin.com/in/aaronwang1013</a></li>
-    <li>Email: qazxsw523625@gmail.com</li>
-  </ul>
 
-  <h2>Work Experience</h2>
-  <p>Bioinformatic Engineer • Genomics BioSci & Tech Co Ltd. (Jul 2021 - Present)</p>
+  <p>As a bioinformatician with three years of experience, I have a strong background in statistics and knowledge of data processing. I am highly skilled at analyzing complex biological data sets using a variety of programming tools. My expertise in programming languages in python, R, and shell scripts enables me to develop custom scripts and an automated testing pipeline. I have excellent communication and problem-solving skills, which enable me to clearly and effectively convey solutions to customers.</p>
+  <p>Recnetly, I am learning Node JS and also diving into the exciting world of cs50! I'm using this blog to record my learning adventures and share insights into my problem-solving processes. It's not just about cementing my knowledge but also about building a community of like-minded learners, especially those who are currently embarking on the CS50 journey alongside me. Let's learn, grow, and conquer CS50 together!" 🚀</p>
+  
+
+  <br>
+  <h3>Work Experience</h3>
+  <p>Part-time • ChatBot development (based on OPEN AI). (Present)</p>
+  <ul>
+    <li>Data collection from public bioinformatic community.</li>
+    <li>Fine-tune QA model baed on OPEN AI using dataset collected from company and community.</li>
+  </ul>
+  <p>Bioinformatic Engineer • Genomics BioSci & Tech Co Ltd. (Jul 2021 - Sep 2023)</p>
   <ul>
     <li>Proceed routine bioinformatic analysis, make sure the pipeline works smoothly and generate the reports for customers. Complete 500+ standard bioinformatic cases.</li>
     <li>Developed and benchmarked new analytic procedures using nextflow (groovy based language).</li>
@@ -30,5 +79,23 @@
   <ul>
     <li>Proceeding data visualization and writing scientific manuscripts.</li>
   </ul>
+
+  <br>
+  <br>
+  <br>
+  <table class="eduation">
+    <tr>
+      <th colspan="2">Education</th>
+    </tr>
+    <tr>
+      <td>Jul 2018 - Jul 2020</td>
+      <td>National Taiwan University - Plant pathology and Microbiology</td>
+    </tr>
+    <tr>
+      <td>Jul 2014 - Jul 2018</td>
+      <td>National Chung Hsing University - Plant pathology </td>
+    </tr>
+  </table>
+
 </body>
 </html>
