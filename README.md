@@ -11,3 +11,6 @@ npm i nodemon --save-dev
 
 ## start server
 npm run dev
+
+
+![Alt text](./docs/architecture.png)
